@@ -3,4 +3,4 @@ function sum(one,two){
     return t;
 }
 
-module.exports ={sum};
+module.exports ={fuck:sum};
