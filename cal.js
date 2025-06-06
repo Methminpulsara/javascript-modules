@@ -1,6 +1,12 @@
-function sum(one,two){
-    var t = one+two;
-    return t;
-}
+// function sum(one,two){
+//     var t = one+two;
+//     return t;
+// }
 
-module.exports ={sum};
+
+function print(){
+    console.log("cal");
+}
+print()
+
+module.exports ={print};
