@@ -3,9 +3,8 @@
 //     return t;
 // }
 
-
 function print(){
-    console.log("PAKAYA");
+    console.log("PAKAYA")
 }
 
 module.exports ={print};
