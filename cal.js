@@ -5,8 +5,7 @@
 
 
 function print(){
-    console.log("cal");
+    console.log("PAKAYA");
 }
-print()
 
 module.exports ={print};
