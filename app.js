@@ -7,3 +7,11 @@ let os =require("os")
 
 var {print} = require("./cal") // refernce de strucering
 console.log(os.platform());
+
+
+
+
+
+
+
+
