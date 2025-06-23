@@ -1,10 +1,16 @@
-// inbuild one
-// ape windows eke thiyne dewl assec krnn puluwn = > ram eka / ip address / course  => platform related details 
-//total ram / user acount information / uptime 
-let os =require("os")
+const http = require("http");
+const { json } = require("stream/consumers");
+const PORT= 3000; // 3000
 
 
+const server = http.createServer((req,res)=>{
+   res.writeHead(200, { "content-type": "application/json"});
+   res.end(JSON.stringify({
+    "name":"METHMIN",
+       "age":22
+   }));
+});
 
-
-var {print} = require("./cal") // refernce de strucering
-console.log(os.platform());
+server.listen(PORT,()=>{
+    console.log(`server is running on port ${PORT}`);
+})
